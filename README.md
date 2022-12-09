@@ -1,5 +1,6 @@
 # Docker for PEGA Personal Edition
-
+link access:
+http://localhost:8080
 ### Note: This project currently only supports Pega 8.3 personal edition (this might work with older verisons, but not guaranteed).
 
 This project is intended to help PEGA enthusiasts deploy and experiment PEGA PRPC Personal Edition using docker. 
