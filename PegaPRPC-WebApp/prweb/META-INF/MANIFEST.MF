@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Implementation-Title: prweb
+sourceRevision: ee2360e1cd22371a18227564549ef79686361670
+Implementation-Version: 8.7.0-163
+Pega-Build-Name: PRPC-8.7.0-163
+Built-By: root
+Pega-Codeset-Version: 08-07-01
+Specification-Vendor: Pegasystems
+Specification-Title: Pega7 Engine
+Pega-Build-Date: 2022-01-06 21.08 UTC
+Implementation-Vendor: Pegasystems
+Gradle-Version: 6.8.3
+GitBranch: release/8.7
+BuildURL: prpc-platform/job/release%252F8.7/163/
+Build-JDK: 1.8.0_242
+Pega-Codeset-Name: Pega-EngineCode
+Specification-Version: 8.7.0
+

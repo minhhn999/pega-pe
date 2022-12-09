@@ -42,7 +42,7 @@ services:
       - JDBC_CLASS=org.postgresql.Driver      
       
     ports:
-      - 8085:8080     #Use this line only if you have other webservers running on port 8080
+      - 8080:8080     #Use this line only if you have other webservers running on port 8080
       
     # ignore the below labels if you don't use traefik reverse proxy 
     labels:
@@ -51,6 +51,6 @@ services:
       - traefik.enable=true
       - "traefik.frontend.rule=Host:pega.docker.localhost"    
 
-    # this makes sure that pega backend is running before pega prpc is launched
-    depends_on:
-     - postgresql-pega-backend
+    # # this makes sure that pega backend is running before pega prpc is launched
+    # depends_on:
+    #  - postgresql-pega-backend
